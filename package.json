@@ -1,0 +1,17 @@
+{
+  "name": "jd.boiv.in.win-cursor",
+  "version": "1.0.0",
+  "displayName": "Windows Cursor",
+  "description": "Change the hardware cursor / mouse in Windows for Unity",
+  "dependencies": {
+    
+ },
+ "keywords": [
+    "windows", "cursor", "mouse"
+  ],
+  "author": {
+    "name": "Jean-Denis Boivin",
+    "email": "jd@boiv.in",
+    "url": "https://jd.boiv.in"
+  }
+}
