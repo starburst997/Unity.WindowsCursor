@@ -2,6 +2,8 @@
 
 Change the hardware cursor / mouse in Windows for Unity. Works in the editor as well.
 
+It is kinda slow on my computer (0.30ms), so there must be a better way...
+
 ## Installation
 
 Add the dependency to your `manifest.json`
