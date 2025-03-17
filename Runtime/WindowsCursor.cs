@@ -28,7 +28,7 @@ namespace JD.WindowsCursor
     public static class WindowsCursor
     {
 #if (UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN) && !DISABLE_WINDOWS_CURSOR
-        private static WindowsCursors _lastCursor;
+        private static WindowsCursors _lastCursor = WindowsCursors.StandardArrow;
         
         [DllImport("user32.dll", EntryPoint = "SetCursor")]
         private static extern IntPtr _setCursor(IntPtr hCursor);
